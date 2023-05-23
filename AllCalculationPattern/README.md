@@ -15,7 +15,7 @@ RLC直列回路のインピーダンスの大きさ計算
 
 実行結果
 
-![demo](https://raw.githubusercontent.com/ShiraoTakuya/Python_Repositories/main/ElectricSimulationFromVoltage_3D_CuPy/canvas_electric_voltage_z0050_10000.png)
+![demo](https://raw.githubusercontent.com/ShiraoTakuya/Csharp_Repositories/main/AllCalculationPattern/cap.PNG)
  
 # Requirement
  
