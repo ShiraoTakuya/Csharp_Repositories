@@ -1,4 +1,4 @@
-Math.Sqrt(Math.Pow(R1,2)+(É÷*L1-1/(É÷*C1)))
+Math.Sqrt(Math.Pow(R1,2)+Math.Pow(É÷*L1-1/(É÷*C1),2))
 R1,10e3,0.05
 É÷,6e3,0.1
 L1,1e-6,0.1

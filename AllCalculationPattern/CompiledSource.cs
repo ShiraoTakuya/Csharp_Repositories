@@ -120,7 +120,7 @@ class Window: Form{
 				arCal.Add(arVar[j]*(1 + arTol[j] * iIndexSign));
 			}
 			//計算結果を出力
-			arResults.Add(Math.Sqrt(Math.Pow(arCal[0],2)+(arCal[1]*arCal[2]-1/(arCal[1]*arCal[3]))));
+			arResults.Add(Math.Sqrt(Math.Pow(arCal[0],2)+Math.Pow(arCal[1]*arCal[2]-1/(arCal[1]*arCal[3]),2)));
 		}
 
 		//TYP値を計算出力
@@ -128,7 +128,7 @@ class Window: Form{
 		for(int j = 0; j < arVar.Count; j++){
 			arCal.Add(arVar[j]);
 		}
-		arTextBox[0].Text = "TYP値: "+Math.Sqrt(Math.Pow(arCal[0],2)+(arCal[1]*arCal[2]-1/(arCal[1]*arCal[3])))+"\r\n";
+		arTextBox[0].Text = "TYP値: "+Math.Sqrt(Math.Pow(arCal[0],2)+Math.Pow(arCal[1]*arCal[2]-1/(arCal[1]*arCal[3]),2))+"\r\n";
 
 		//MAX,MINを出力
 		var dMax = arResults[0];
